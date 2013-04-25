@@ -13,5 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap.js
+//= require modernizr.custom.js
 //= require angular
-//= require_tree .
+//= require boxlayout
+

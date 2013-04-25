@@ -1,5 +1,6 @@
 Playground::Application.routes.draw do
   root to: 'playground#index'
+  resources :playground2, :only => [:index]
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
