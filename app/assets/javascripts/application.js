@@ -16,4 +16,5 @@
 //= require modernizr.custom.js
 //= require angular
 //= require boxlayout
+//= require jquery.windows.js
 
