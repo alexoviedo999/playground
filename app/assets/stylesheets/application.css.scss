@@ -1,0 +1,64 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require bootstrap
+ *= require bootstrap-responsive
+ *= require component.css
+ *= require main.css
+ *= playground
+ *= require_self
+ */
+
+.bl-main > section .bl-icon-close {
+  color: black;
+}
+
+/*Landing page*/
+
+.bl-main > section:nth-child(1) {
+background: white;
+}
+
+.bl-main > section:nth-child(2) {
+background: #FF682B;
+}
+
+.bl-main > section:nth-child(3) {
+background: #3234FF;
+}
+
+.bl-main > section:nth-child(4) {
+  background:url(http://164.177.158.37/stock/clouds.png) #000 no-repeat center center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
+    overflow:hidden;
+    margin:0;
+    position:relative;
+    height:100%;
+    padding: 0;
+}
+
+.bl-icon.space_word {
+  position: absolute;
+  width: 100%;
+  margin-top: 100px;
+
+}
+
+canvas {
+  width: 100%;
+  height:100%;
+}
+
+/*Child 4 */
+.space.window:nth-child(1) {
+  background: black;
+}
