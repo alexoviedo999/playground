@@ -12,6 +12,7 @@
  *= require bootstrap-responsive
  *= require component.css
  *= require main.css
+ *= require clouds.css
  *= playground
  *= require_self
  */
@@ -50,12 +51,29 @@ background: #3234FF;
   position: absolute;
   width: 100%;
   margin-top: 100px;
-
 }
 
-canvas {
+.bl-icon.cloud_word {
+  position: absolute;
+  width: 100%;
+  margin-top: 100px;
+  z-index: 5000;
+}
+
+
+canvas#area {
   width: 100%;
   height:100%;
+}
+
+/*Child 3 */
+
+.window:nth-child(1).bright_sky {
+  background: -webkit-gradient(radial, 50%, 0, 50%, 100, color-stop(0%, #52f1c5), color-stop(100%, #002a80));
+  background: -webkit-radial-gradient(center, #52f1c5, #002a80);
+  background: -moz-radial-gradient(center, #52f1c5, #002a80);
+  background: -o-radial-gradient(center, #52f1c5, #002a80);
+  background: radial-gradient(center, #52f1c5, #002a80);
 }
 
 /*Child 4 */
